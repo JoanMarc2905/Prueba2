@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        <form action="URL_de_destino" method="metodo">
+            <li>
+                <div class="casilla">
+                <label for="Nombre Completo">Nombre Completo</label>
+                <input type="text" name="Nombre Completo" placeholder="Escribe tu Nombre Completo" required> 
+                </div>
+            </li>
+            <p></p>
+            <li>
+                <div class="casilla">
+                <label for="email">Correo eléctronico:</label>
+                <input type="email" id="email" name="email" placeholder="Escribe tu email" required>
+                </div>
+            </li>
+            <p></p>
+            <li>
+                <div class="casilla">
+                <label for="text">Contraseña</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            </li>
+            <p></p>
+            <li>
+                <div class="casilla">
+                <label for="password">Confirmación de Contraseña</label>
+                <input type="password" id="password" name="Confirmación de Contraseña" required>
+            </div>
+            </li>
+            <p></p>
+            <li>
+                <div class="casilla">
+                <label for="number">Número de Teléfono</label>
+                <input type="text" id="number" name="Teléfono">
+            </div>
+            </li>
+            <p></p>
+            <li>
+                <div class="casilla">
+                <input type="date" id="name" required>
+            </div>
+            </li>
+            <p></p>
+            <li>
+                <div class="casilla">
+                <input type="radio" name="sexo" value="hombre" id="hombre">
+                <label for="hombre">Hombre</label>
+                <input type="radio" name="sexo" value="mujer" id="mujer">
+                <label for="mujer">Mujer</label>
+                <input type="radio" name="otro" value="otro" id="otro">
+                <label for="otro">Otro</label>
+            </div>
+            </li>
+            <p></p>
+            <li>
+                <div class="casilla">
+                <label for="pais">País</label>
+                <select name="pais" id="pais">
+                    <option value="es">España</option>
+                    <option value="USA">Estados Unidos</option>
+                    <option value="BR">Brasil</option>
+                </select>
+            </div>
+            </li>
+            <p></p>
+            <li>
+                <div class="casilla">
+                <input type="checkbox" name="aceptar_condicion" id="aceptar" required>
+                <label for="aceptar"> Acepto condiciones</label>
+            </div>
+            </li>
+            <p></p>
+            <li>
+                <button type="reset">Reiniciar</button>
+                <button type="button">Enviar</button>
+            </li>
+
+    </ul>
+    </form>
+
+
+</body>
+
+</html>
